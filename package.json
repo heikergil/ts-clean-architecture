@@ -1,0 +1,33 @@
+{
+  "name": "ts-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-console-app": "nodemon ./src/infrastructure/driving-adapters/console/console.ts",
+    "start-sqlite-app": "nodemon ./src/infrastructure/driving-adapters/sqlite/sqlite.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "aws-sdk": "^2.1148.0",
+    "better-sqlite3": "^7.5.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.5.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.39",
+    "@types/uuid": "^8.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
